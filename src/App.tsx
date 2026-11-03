@@ -13,7 +13,7 @@ export default function App() {
     <div className="min-h-screen overflow-x-clip bg-ink font-body text-slate-100">
       <a
         href="#main-content"
-        className="pointer-events-none fixed left-4 top-4 z-[100] -translate-y-[180%] rounded-lg bg-accent-cyan px-4 py-3 font-semibold text-ink opacity-0 focus:pointer-events-auto focus:translate-y-0 focus:opacity-100"
+        className="pointer-events-none fixed left-4 top-4 z-100 -translate-y-[180%] rounded-lg bg-accent-cyan px-4 py-3 font-semibold text-ink opacity-0 focus:pointer-events-auto focus:translate-y-0 focus:opacity-100"
       >
         {site.accessibility.skipLink}
       </a>

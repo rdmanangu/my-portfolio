@@ -9,7 +9,7 @@ function ProjectPreview({ project }) {
   const [imageFailed, setImageFailed] = useState(false);
 
   return (
-    <div className="relative aspect-[16/10] overflow-hidden border-b border-white/10 bg-project-fallback p-2 sm:p-3">
+    <div className="relative aspect-16/10 overflow-hidden border-b border-white/10 bg-project-fallback p-2 sm:p-3">
       {project.image && !imageFailed ? (
         <img
           src={project.image}

@@ -38,7 +38,7 @@ export default function Timeline() {
           viewport={viewportOnce}
           className="relative pl-10 sm:pl-14"
         >
-          <div aria-hidden="true" className="absolute bottom-2 left-[10px] top-2 w-px bg-white/15" />
+          <div aria-hidden="true" className="absolute bottom-2 left-2.5 top-2 w-px bg-white/15" />
           <motion.div
             aria-hidden="true"
             style={{ scaleY: reduceMotion ? 1 : lineProgress }}

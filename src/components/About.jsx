@@ -35,7 +35,7 @@ export default function About() {
               <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-slate-400 sm:text-[11px]">
                 {detail.label}
               </p>
-              <p className="mt-auto break-words font-display text-lg font-semibold leading-tight text-white sm:text-xl">
+              <p className="mt-auto wrap-break-word font-display text-lg font-semibold leading-tight text-white sm:text-xl">
                 {detail.value}
               </p>
               <p className="mt-2 text-xs leading-5 text-slate-400">{detail.note}</p>

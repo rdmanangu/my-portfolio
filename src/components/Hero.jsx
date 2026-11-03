@@ -28,7 +28,7 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-ink/35 sm:bg-transparent" />
         <div className="absolute inset-0 bg-hero-scrim" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-ink via-transparent to-transparent" />
       </div>
 
       <div className="mx-auto w-full max-w-7xl px-5 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-28">
