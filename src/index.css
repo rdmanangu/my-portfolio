@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  @apply bg-accent-cyan/25 text-white;
+}
+
+:where(a, button, input, textarea):focus-visible {
+  @apply outline-2 outline-offset-4 outline-accent-cyan;
+  outline-style: solid;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

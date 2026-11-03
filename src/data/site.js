@@ -1,0 +1,92 @@
+export const site = {
+  identity: {
+    name: "Redenelle Maurice Manangu",
+    initials: "RMM",
+    email: "manangurednelle@gmail.com",
+    githubUrl: "https://github.com/rdmanangu",
+    linkedinUrl: "https://linkedin.com/in/redenelle-manangu-6b98a7317",
+    resumeUrl: "https://drive.google.com/file/d/1DEjlITljuFDUSuAsASlUE5MkvwN3rBXC/view?usp=sharing",
+  },
+  accessibility: {
+    skipLink: "Skip to content",
+  },
+  navigation: [
+    { id: "home", label: "Home" },
+    { id: "about", label: "About" },
+    { id: "skills", label: "Skills" },
+    { id: "projects", label: "Projects" },
+    { id: "journey", label: "Journey" },
+    { id: "contact", label: "Contact" },
+  ],
+  navbar: {
+    portfolioLabel: "portfolio",
+    contactLabel: "Let's talk",
+    openMenuLabel: "Open navigation menu",
+    closeMenuLabel: "Close navigation menu",
+    mobileNavigationLabel: "Mobile navigation",
+    desktopNavigationLabel: "Main navigation",
+  },
+  hero: {
+    image: "/images/hero-workspace.jpg",
+    availability: "Open for OJT / Internship",
+    greeting: "Hello, I'm",
+    headline: "Aspiring UI/UX Designer, QA Tester & Software Developer",
+    description:
+      "I am a Computer Science student at Holy Angel University with hands-on experience in developing web applications and evaluating software functionality and usability. I enjoy building practical digital solutions, improving user experiences, and ensuring software quality. I am eager to learn, collaborate, and contribute to meaningful IT projects while gaining professional industry experience.",
+    resumeLabel: "Download Resume",
+    projectsLabel: "View Projects",
+    socialLabels: { github: "GitHub", linkedin: "LinkedIn", email: "Email" },
+  },
+  about: {
+    eyebrow: "01 / ABOUT",
+    heading: "A little about me.",
+    description:
+      "I am a Computer Science student focused on UI/UX design, quality assurance, software testing, and software development. I enjoy creating practical digital solutions, improving usability, and contributing to reliable software.",
+    details: [
+      { label: "University", value: "Holy Angel University", note: "Current undergraduate" },
+      { label: "Major", value: "Computer Science", note: "B.S. program" },
+      { label: "Target start", value: "November 2026", note: "OJT / internship" },
+      { label: "Required OJT", value: "To be confirmed", note: "Program requirement" },
+      { label: "Preferred roles", value: "UI/UX, QA, Software Development", note: "Open to IT roles" },
+      { label: "Work setup", value: "Onsite / Hybrid", note: "Candaba, Pampanga; open to remote" },
+    ],
+  },
+  contact: {
+    eyebrow: "05 / CONTACT",
+    heading: "Let's build something good.",
+    description:
+      "Interested in collaborating or offering an OJT opportunity? Feel free to contact me through email or LinkedIn. I would be happy to connect and discuss how I can contribute to your team.",
+    emailLabel: "Email me directly",
+    copyLabel: "Copy email",
+    copiedLabel: "Copied!",
+    formHeading: "Send a message",
+    formDescription: "Tell me a little about the opportunity.",
+    fields: {
+      name: { label: "Your name", placeholder: "Jane Doe" },
+      email: { label: "Email address", placeholder: "jane@company.com" },
+      message: { label: "Your message", placeholder: "Hi, I'd love to talk about..." },
+    },
+    submitLabel: "Open email draft",
+    submittingLabel: "Opening draft...",
+    validation: {
+      nameRequired: "Please enter your name.",
+      nameShort: "Name must be at least 2 characters.",
+      emailRequired: "Please enter your email address.",
+      emailInvalid: "Enter a valid email address.",
+      messageRequired: "Please write a message.",
+      messageShort: "Message must be at least 10 characters.",
+    },
+    status: {
+      success: "Your email draft is opening. Hit send in your email app to finish.",
+      error: "Your email app could not be opened. Please use the direct email link instead.",
+      validationError: "Please check the highlighted fields and try again.",
+      copyError: "Could not copy the address. Please select it from the link above.",
+    },
+    emailSubject: "Portfolio inquiry from",
+  },
+  footer: {
+    tagline: "Built with curiosity and care.",
+    backToTop: "Back to top",
+    rights: "All rights reserved.",
+  },
+};

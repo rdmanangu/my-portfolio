@@ -1,0 +1,58 @@
+export const projectContent = {
+  eyebrow: "03 / SELECTED WORK",
+  heading: "Things I've built.",
+  description:
+    "Projects where I worked through a real problem and turned an idea into a usable experience.",
+  labels: {
+    problem: "Problem",
+    solution: "Solution",
+    result: "Result",
+    source: "Source code",
+    demo: "Live demo",
+  },
+};
+
+export const projects = [
+  {
+    id: "haudemiccheck",
+    title: "HAUdemicCheck",
+    type: "ACADEMIC WEB APPLICATION / MACHINE LEARNING",
+    summary: "A web-based document similarity detection system for instructors.",
+    image: "/images/hau.png",
+    imageAlt: "HAUdemicCheck document similarity system preview",
+    problem: "Manually evaluating document similarities can be time-consuming and difficult to standardize.",
+    solution: "Developed a hybrid similarity engine combining TF-IDF, cosine similarity, and Jaccard similarity, with configurable thresholds and a document evaluation workflow.",
+    result: "Provides a structured document evaluation process and consistent similarity analysis.",
+    tech: ["Python", "Flask", "scikit-learn", "NLTK", "Supabase", "Docker"],
+    sourceUrl: "",
+    demoUrl: "https://haudemiccheck.com/login",
+  },
+  {
+    id: "dentiprice",
+    title: "DentiPrice",
+    type: "FULL-STACK WEB APPLICATION",
+    summary: "A dental pricing and appointment inquiry web application.",
+    image: "/images/DentiPrice.png",
+    imageAlt: "DentiPrice dental pricing application preview",
+    problem: "Patients may need to inquire manually to determine estimated treatment prices and availability.",
+    solution: "Developed a price estimator, inquiry form, and administrative dashboard with patient, inquiry, treatment, and appointment modules.",
+    result: "Provides an accessible way to explore treatment costs and manage dental inquiries.",
+    tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    sourceUrl: "",
+    demoUrl: "https://dentiprice.onrender.com",
+  },
+  {
+    id: "javathons-bank",
+    title: "JavaThon's Bank",
+    type: "JAVA APPLICATION / OBJECT-ORIENTED PROGRAMMING PROJECT",
+    summary: "A console-based banking application for managing different types of bank accounts.",
+    image: "/images/project-javathons-bank.svg",
+    imageAlt: "JavaThon's Bank console application placeholder",
+    problem: "Bank account transactions require clear rules for account types, balances, borrowing, repayments, interest, and fees.",
+    solution: "Built a Java banking application using inheritance, encapsulation, and polymorphism to support savings, checking, and credit accounts.",
+    result: "Supports deposits, withdrawals, credit transactions, interest calculations, applicable fees, input validation, exception handling, and user-friendly transaction errors.",
+    tech: ["Java", "Object-Oriented Programming (OOP)"],
+    sourceUrl: "",
+    demoUrl: "",
+  },
+];

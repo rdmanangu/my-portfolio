@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="JavaThon's Bank console application">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111C32"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+    <linearGradient id="java" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F89820"/>
+      <stop offset="1" stop-color="#E76F00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#background)"/>
+  <circle cx="680" cy="90" r="180" fill="#F89820" opacity=".08"/>
+  <rect x="54" y="46" width="692" height="408" rx="18" fill="#0B1729" stroke="#30455E" stroke-width="2"/>
+  <rect x="54" y="46" width="692" height="48" rx="18" fill="#17283D"/>
+  <rect x="54" y="76" width="692" height="18" fill="#17283D"/>
+  <circle cx="78" cy="70" r="6" fill="#F87171"/>
+  <circle cx="99" cy="70" r="6" fill="#FBBF24"/>
+  <circle cx="120" cy="70" r="6" fill="#34D399"/>
+  <text x="155" y="76" fill="#AFC2D5" font-family="Arial, sans-serif" font-size="15">javathons-bank / console</text>
+  <path d="M112 152c42-36 74 13 40 33-27 16-2 42 22 17" fill="none" stroke="url(#java)" stroke-linecap="round" stroke-width="10"/>
+  <circle cx="158" cy="207" r="5" fill="#F89820"/>
+  <text x="218" y="178" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="28" font-weight="700">JavaThon's Bank</text>
+  <text x="218" y="207" fill="#8EA5BA" font-family="Arial, sans-serif" font-size="15">Bank Account Management System</text>
+  <rect x="104" y="258" width="592" height="142" rx="12" fill="#081321" stroke="#243B55"/>
+  <text x="128" y="291" fill="#F89820" font-family="Consolas, monospace" font-size="16">&gt; Select account type</text>
+  <text x="128" y="320" fill="#D9E7F2" font-family="Consolas, monospace" font-size="15">[1] Savings   [2] Checking   [3] Credit</text>
+  <text x="128" y="350" fill="#7DE3EF" font-family="Consolas, monospace" font-size="15">&gt; Choose transaction: deposit / withdraw</text>
+  <text x="128" y="379" fill="#9EB4C8" font-family="Consolas, monospace" font-size="15">Validation and exception handling enabled_</text>
+</svg>
